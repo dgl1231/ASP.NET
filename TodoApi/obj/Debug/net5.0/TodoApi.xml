@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TodoApi</name>
+    </assembly>
+    <members>
+        <member name="M:TodoApi.Controllers.TodoItemsController.DeleteTodoItem(System.Int64)">
+            <summary>
+            Deletes a specific TodoItem.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

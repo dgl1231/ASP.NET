@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33423.256
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhyUseDi", "WhyUseDi.csproj", "{64B4523D-14EE-4559-BA87-63298C90E0E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "..\Service\Services.csproj", "{4BAEBA63-0939-47B2-8C92-F6A13487E89B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64B4523D-14EE-4559-BA87-63298C90E0E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64B4523D-14EE-4559-BA87-63298C90E0E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64B4523D-14EE-4559-BA87-63298C90E0E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64B4523D-14EE-4559-BA87-63298C90E0E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BAEBA63-0939-47B2-8C92-F6A13487E89B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BAEBA63-0939-47B2-8C92-F6A13487E89B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BAEBA63-0939-47B2-8C92-F6A13487E89B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BAEBA63-0939-47B2-8C92-F6A13487E89B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A6075E0-14AF-45C7-851E-6768E1BC6280}
+	EndGlobalSection
+EndGlobal

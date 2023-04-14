@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using SessionTest.Models;
 using System;
@@ -20,12 +21,19 @@ namespace SessionTest.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            string name = HttpContext.Session.GetString("Name");
+            return View(model:name);
         }
 
         public IActionResult Privacy()
         {
             return View();
+        }
+
+        public IActionResult SaveName(string name)
+        {
+            HttpContext.Session.SetString("Name", name);
+            return RedirectToAction("Index");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
